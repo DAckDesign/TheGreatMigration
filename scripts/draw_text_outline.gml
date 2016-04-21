@@ -1,0 +1,12 @@
+//draw_text_outline(text,x,y,sep,w)
+draw_set_color(c_black);
+draw_text_ext(argument1+2,argument2+2,argument0,argument3,argument4);
+draw_text_ext(argument1-2,argument2-2,argument0,argument3,argument4);
+draw_text_ext(argument1,argument2+2,argument0,argument3,argument4);
+draw_text_ext(argument1+2,argument2,argument0,argument3,argument4);
+draw_text_ext(argument1,argument2-2,argument0,argument3,argument4);
+draw_text_ext(argument1-2,argument2,argument0,argument3,argument4);
+draw_text_ext(argument1-2,argument2+2,argument0,argument3,argument4);
+draw_text_ext(argument1+2,argument2-2,argument0,argument3,argument4);
+draw_set_color(c_white);
+draw_text_ext(argument1,argument2,argument0,argument3,argument4);
